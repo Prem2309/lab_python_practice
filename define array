@@ -1,0 +1,20 @@
+def are_arrays_same(array1, array2):
+    # Check if the lengths of the arrays are the same
+    if len(array1) != len(array2):
+        return "not sure"
+    
+    # Check if the sums of the arrays are the same
+    if sum(array1) != sum(array2):
+        return "not sure"
+    
+    return "same"
+
+# Example usage
+array1 = [10, 20, 30]
+array2 = [30, 20, 10]
+
+array3 = [5, 15, 25]
+array4 = [10, 15]
+
+print("Result for array1 and array2:", are_arrays_same(array1, array2))  # Output: same
+print("Result for array3 and array4:", are_arrays_same(array3, array4))  # Output: not sure
