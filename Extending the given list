@@ -1,0 +1,11 @@
+# EXTEND THE GIVEN LIST
+size_of_list_1=int(input())
+list_1=[]
+for i in range(size_of_list_1):
+    list_1.append(int(input()))
+print(list_1)
+size_of_list_2=int(input())
+list_2=[]
+for i in range(size_of_list_2):
+    list_2.append(int(input()))
+print(list_2)
