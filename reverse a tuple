@@ -1,0 +1,11 @@
+# write a program to reverse a tuple
+def reverse_tuple(tup):
+    return tup[::-1]
+
+# Sample Input 1
+tuple1 = ('p', 'y', 't', 'h', 'o', 'n')
+print(f"Reversed Tuple 1: {reverse_tuple(tuple1)}")
+
+# Sample Input 2
+tuple2 = ('t', 'u', 'p', 'l', 'e')
+print(f"Reversed Tuple 2: {reverse_tuple(tuple2)}")
